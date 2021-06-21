@@ -1,5 +1,5 @@
 {% set name = "types-fb303" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-fb303-{{ version }}.tar.gz
-  sha256: 7ed2514e5590018aabf6416f2d94630cab772c345deaa52f7cd431545a709a85
+  sha256: 104afd4ab1d43fe5f4c6288a303ec737db0ee6fb78e7605055d736cd4e4265fd
 
 build:
   number: 0
